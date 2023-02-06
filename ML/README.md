@@ -8,6 +8,11 @@ Please assume the evaluator does not have prior experience executing programs in
 The code, at a minimum, must run. Please provide clear instructions on how to run it.
 When complete, please upload your codebase to a public Git repo (GitHub, Bitbucket, etc.) and email us the link. Please double-check this is publicly accessible.
 
+
+## About
+
+The current app supports the selection between the two different choices of prediction model (LSTM, GRU).
+
 ## Installation & Usage 
 
 After Cloning the repo, follow the following steps
