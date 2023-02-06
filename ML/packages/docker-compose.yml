@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  streamlit:
+    build: 
+        dockerfile: /Users/xinyu/repos/Fetch/ML/packages/st/Dockerfile
+    ports:
+      - 8501:8501
+    depends_on:
+      - ml_api
+    # environment:
+    #   - PYTHONPATH=/workspace
+
+  ml_api:
+    build:
+        dockerfile: /Users/xinyu/repos/Fetch/ML/packages/ml_api/Dockerfile
+    ports:
+      - 8001:8001
+
+    # environment:
+    #   - PYTHONPATH=/workspace

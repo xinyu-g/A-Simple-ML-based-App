@@ -1,0 +1,6 @@
+uvicorn==0.18.2
+fastapi==0.79.0
+python-multipart==0.0.5
+pydantic==1.9.1
+typing_extensions==3.10.0
+loguru==0.6.0
