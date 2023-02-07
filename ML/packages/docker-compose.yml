@@ -3,7 +3,7 @@ version: '3'
 services:
   streamlit:
     build: 
-        dockerfile: /Users/xinyu/repos/Fetch/ML/packages/st/Dockerfile
+        dockerfile: /st/Dockerfile
     ports:
       - 8501:8501
     depends_on:
@@ -13,7 +13,7 @@ services:
 
   ml_api:
     build:
-        dockerfile: /Users/xinyu/repos/Fetch/ML/packages/ml_api/Dockerfile
+        dockerfile: ml_api/Dockerfile
     ports:
       - 8001:8001
 

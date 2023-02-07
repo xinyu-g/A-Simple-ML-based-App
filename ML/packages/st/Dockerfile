@@ -2,9 +2,9 @@ FROM python:3.10
 # /Users/xinyu/repos/Fetch/ML/packages/api
 
 
-WORKDIR /Users/xinyu/repos/Fetch/ML/packages/st
+WORKDIR /opt/st
 
-ADD ./* /Users/xinyu/repos/Fetch/ML/packages/st
+ADD ./* /opt/st
 # ENV PATH /opt/homebrew/bin:${PATH}
 RUN pip install --upgrade pip
 # RUN pip freeze > /Users/xinyu/repos/Fetch/ML/packages/st/requirements.txt
