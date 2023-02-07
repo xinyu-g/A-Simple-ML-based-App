@@ -3,7 +3,7 @@ version: '3'
 services:
   streamlit:
     build: 
-        dockerfile: /st/Dockerfile
+        dockerfile: st/Dockerfile
     ports:
       - 8501:8501
     depends_on:
